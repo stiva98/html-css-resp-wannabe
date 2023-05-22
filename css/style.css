@@ -156,3 +156,13 @@ SOLUZIONE PER RESPONSIVE A 480PX
         flex-wrap: wrap;
     }
 }
+
+ /*
+SOLUZIONE BONUS
+*/
+@media screen and (min-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+ }
