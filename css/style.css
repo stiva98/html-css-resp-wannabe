@@ -138,3 +138,21 @@ SOLUZIONE PER RESPONSIVE A 768PX
     }
  }
 
+ /*
+SOLUZIONE PER RESPONSIVE A 480PX
+*/
+
+@media screen and (max-width: 480px) {
+
+    .lessons .col ,
+    .steps .col ,
+    .why-us .col-left ,
+    .why-us .col-right {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .row {
+        flex-wrap: wrap;
+    }
+}
